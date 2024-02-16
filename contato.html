@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Fale comigo</h1>
+        <form action="https://formsubmit.co/gabrielhenryolliv@gmail.com" method="POST">
+            <div class="nome">
+                <label for="nome">Seu nome:</label>
+                <input type="text" name="nome" placeholder="digite seu nome" required>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="digite seu email" required>
+            </div>
+            <div class="descrição">
+                <label for="mensagem">Mensagem:</label>
+                <br>
+                <textarea name="message" id="message" cols="45"
+                rows="9" placeholder="escreva aqui"></textarea>
+            </div>
+          
+            <input type="hidden" name="_next"
+            value="http://127.0.0.1:5500/obrigadofeed.html">
+            <div class="enviar"><a href="obrigadofeed.html"><button type="submit">Enviar</button></a></div>
+            <div class="voltar"> <a href="index.html"><button>voltar</button></a></div>
+           </form>
+    </div>
+    <img src="contatoimagem.svg" alt="">
+</body>
+</html>
